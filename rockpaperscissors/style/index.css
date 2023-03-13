@@ -1,0 +1,33 @@
+#body-index__{
+    background-color: #eafcff;
+}
+
+article{
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#score {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    position: fixed;
+    top: 95%;
+    left : 47%
+}
+
+#icon-main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mains{
+    font-size: 72px;
+}
