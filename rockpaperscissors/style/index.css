@@ -1,5 +1,5 @@
 #body-index__{
-    background-color: #eafcff;
+    background-color: #e2eeef;
 }
 
 article{
@@ -7,18 +7,27 @@ article{
     display: block;
     margin: auto;
     text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(137, 137, 148);
+    margin-top: 20px;
+    height: 640px;
 }
 
 #score {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: double;
+    margin-bottom: 25px;
+    border-radius: 15px;
 }
 
 footer{
     position: fixed;
-    top: 95%;
-    left : 47%
+    top: 96%;
+    left : 46.5%
 }
 
 #icon-main {
@@ -40,5 +49,16 @@ footer{
 
 #instruction {
     font-size : 20px;
-    font-weight : 500;
+    font-weight : 500;   
+}
+
+button {
+    border: 0;
+    background-color: #ff72bd;
+    padding: 15px;
+    border-radius: 20px;
+    color : #e2eeef;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
 }
