@@ -11,20 +11,27 @@
         <span id="score">
             <div>
                 <p>Player</p>
-                <p>0</p>
+                <p id="scorePlayer">0</p>
             </div>
             <div>
                 <p>Computer</p>
-                <p>0</p>
+                <p id="scoreComputer">0</p>
             </div>
         </span>
+        <div id="instruction">
+            Click on the hand you want to play
+        </div>
+        <div>
+            <img id="computer-img" src="assets/computer_start.png" alt="computer">
+        </div>
         <span id="icon-main">
-            <div class="mains">✊</div>
-            <div class="mains">✋</div>
-            <div class="mains">✌️</div>
+            <div id="rock" class="mains">✊</div>
+            <div id="paper" class="mains">✋</div>
+            <div id="scissors" class="mains">✌️</div>
         </span>
-        <button>Restart</button>
+        <button onclick="restartGame()">Restart</button>
     </article>
+
     <footer>Cloélia Guiraud</footer>
 </body>
 

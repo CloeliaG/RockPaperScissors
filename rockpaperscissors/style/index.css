@@ -30,4 +30,15 @@ footer{
 
 .mains{
     font-size: 72px;
+    cursor: pointer;
+}
+
+#computer-img {
+    height : 150px;
+    width : 150px;
+}
+
+#instruction {
+    font-size : 20px;
+    font-weight : 500;
 }
